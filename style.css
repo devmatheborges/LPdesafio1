@@ -1,0 +1,393 @@
+
+@media screen and (min-width: 1024px){
+    
+    * {
+        margin: 0px;
+        padding: 0%;
+        font-style: normal; 
+}
+
+/*Menu superior*/
+#MenuSuperior{
+background-color: rgba(48, 48, 48, 1);
+padding: 75px;
+}
+
+#TituloMenu{
+    color:rgba(255, 255, 255, 1);
+    /* width: 1024px; */
+    width: fit-content;
+    height: 72px;
+    font-family: 'inter';
+    font-weight: 600px;
+    line-height: 72px;
+}
+
+#TextoMenu{
+    width: fit-content;
+    height: 28px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+/*Menu de informações*/
+#InforMenu{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    columns: auto;
+    width: 100%;
+
+}
+.IconMenu{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#sobrenos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    justify-items: center
+}
+
+#ImgApartamento{
+width: 500px;
+height: 550px;
+margin-bottom: 10%;
+margin-top: 10%;
+}
+
+#TituloSobreNos{
+font-size: 35px;
+}
+
+#TextoSobreNos{
+font-size: 23px;
+}
+/*foonter*/
+#formulario{
+
+background-image: url(img/fundotitulo.svg);
+padding: 40px;
+
+}
+
+#TituloFormulario{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#formulario{
+    text-align: center;
+    
+}
+
+input{
+    background-color: #FFFFFF;
+    margin: 16px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.879);
+    padding-left: 12px;
+    border-style: none;
+}
+
+button{
+    background-color:#C07212;
+    border-radius: 10px;
+    color:#FFFFFF;
+    width: 150px;
+    height: 40px;
+    margin: 25px;
+    border-style: none;
+    cursor:pointer;
+
+}
+
+button:hover{
+   background-color: #f58a09;
+   color: rgb(231, 187, 103);
+   transform: translateY(-2px);
+   box-shadow: 0px 10px 20px;
+}
+}
+@media screen and (max-width: 1024px){
+
+* {
+margin: 0px;
+padding: 0%;
+font-style: normal; 
+    }
+
+#MenuSuperior{
+background-color: rgba(48, 48, 48, 1);
+padding: 35px;
+}
+
+ #TituloMenu{
+    color:rgba(255, 255, 255, 1); 
+    font-family:'inter';
+    font-weight: 600px;
+    font-size: 30px;
+    width: 500px;
+}
+#TextoMenu{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    padding: 10px;
+    
+
+}
+
+#InforMenu{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    columns: auto;
+    padding: 25px;
+
+}
+.IconMenu{
+gap: 10px;
+width: 80%;
+
+}
+
+
+/* conteudo principal*/
+
+#sobrenos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TituloSobreNos{
+
+margin-top:50px;
+font-size: 28px;
+width: 459px;
+font: "inter";
+}
+
+#TextoSobreNos{
+width: 459px;
+color: black;
+font: "inter";
+}
+
+#ImgApartamento{
+    width: 70%;
+    margin-top:5%;
+    margin-bottom:5%;
+    
+    }
+  
+/*foonter*/
+#formulario{
+
+    background-image: url(img/fundotitulo.svg);
+    padding: 15px;
+
+    }
+    
+    #TituloFormulario{
+    
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 768;
+    
+    }
+    
+    #formulario{
+        text-align: center;
+        
+    }
+    
+    input{
+        background-color: #FFFFFF;
+        margin: 16px;
+        width: 300px;
+        height: 35px;
+        border-radius: 10px;
+        color: rgba(0, 0, 0, 0.3);
+        padding-left: 12px;
+        border-style: none;
+    }
+    
+    button{
+        background-color:#C07212;
+        border-radius: 10px;
+        color:#FFFFFF;
+        width: 150px;
+        height: 40px;
+        margin: 25px;
+        border-style: none;
+        cursor:pointer;
+    
+    }
+    
+    button:hover{
+       background-color: #f58a09;
+       color: rgb(231, 187, 103);
+       transform: translateY(-2px);
+       box-shadow: 0px 10px 20px;
+    } 
+}
+@media screen and (max-width: 1024px){
+    * {
+        margin: 0px;
+        padding: 0%;
+        font-style: normal; 
+            }
+        
+        #MenuSuperior{
+        background-color: rgba(48, 48, 48, 1);
+        align-items: center;
+        
+
+        
+        
+        }
+        
+         #TituloMenu{
+            color:rgba(255, 255, 255, 1); 
+            font-family:'inter';
+            width: 406px;
+            font-size: 25px;            
+            
+        }
+        #TextoMenu{
+            color: rgba(255, 255, 255, 1);
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        #InforMenu{
+            background-color: #F9F9F9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 50%;
+        
+        }
+        .IconMenu{
+         padding: 5px;
+         width: 300px;
+         padding: 8%;
+        
+        }
+        
+        
+        /* conteudo principal*/
+        
+        #sobrenos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #TituloSobreNos{
+        
+        margin-top:50px;
+        font-size: 28px;
+        width: 470px;
+        font: "inter";
+        text-align: center;
+        }
+        
+        #TextoSobreNos{
+        color: black;
+        font: "inter";
+        text-align: center;
+        width: 470px;
+        font-size: 18px;
+
+        }
+        
+        #ImgApartamento{
+            width: 70%;
+            margin-top:5%;
+            margin-bottom:5%;
+            
+            }
+          
+        /*foonter*/
+        #formulario{
+        
+            background-image: url(img/fundotitulo.svg);
+            padding: 15px;
+        
+            }
+            
+            #TituloFormulario{
+            
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 24px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 768;
+            
+            }
+            
+            #formulario{
+                text-align: center;
+                
+            }
+            
+            input{
+                background-color: #FFFFFF;
+                margin: 16px;
+                width: 300px;
+                height: 35px;
+                border-radius: 10px;
+                color: rgba(0, 0, 0, 0.879);
+                padding-left: 12px;
+                border-style: none;
+                
+            }
+            
+            button{
+                background-color:#C07212;
+                border-radius: 10px;
+                color:#FFFFFF;
+                width: 150px;
+                height: 40px;
+                margin: 25px;
+                border-style: none;
+                cursor:pointer;
+            
+            }
+            
+            button:hover{
+               background-color: #f58a09;
+               color: rgb(231, 187, 103);
+               transform: translateY(-2px);
+               box-shadow: 0px 10px 20px; 
+            } 
+        }   
+
+
+
